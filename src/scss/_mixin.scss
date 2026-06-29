@@ -1,0 +1,46 @@
+/* ========================================
+Media Query
+======================================== */
+@use "variables" as *;
+
+@mixin pc-xl {
+  @media (max-width: $pc-xl) {
+    @content;
+  }
+}
+
+@mixin pc-l {
+  @media (max-width: $pc-l) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media (max-width: $pc) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (max-width: $laptop) {
+    @content;
+  }
+}
+
+@mixin tablet-l {
+  @media (max-width: $tablet-l) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media (max-width: $sp) {
+    @content;
+  }
+}
